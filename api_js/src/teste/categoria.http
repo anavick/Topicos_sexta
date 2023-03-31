@@ -1,0 +1,19 @@
+### requisição para a raiz da aplicação
+GET http://localhost:3000
+
+### requisição passando parametros na URL
+GET http://localhost:3000/12/feijao
+
+### requisição passando informação pelo corpo da requisição
+POST http://localhost:3000
+
+//informando a aplicação que voce esta mandando dados do tipo json
+Content-type: application/json
+
+//objeto em json sempre começa com chaves, primeiro a propriedade/atributo e depois o valor
+{
+    "id" : 1,
+    "nome" : "alimento",
+    "descrição" : "Descrição da categoria"
+
+}

@@ -16,41 +16,13 @@ app.use(router);
 app.use(express.json());
 
 
-
-
-
-
-
-//const = constante
-//let = variavel
-
-
-//criando array de produtos
-
-//let produtos : Produto[] = [];
-
-// //Configurando uma requisição com o método GET para 
-// //a raiz da aplicação 
-// //tipando
-// app.get("/", function( request : Request, response : Response ) : Response{
-//    //
-//    return response.status(200).json({ message : "ok", dados : produtos});
-// });
-
-// //EXERCÍCIO - Criar uma nova rota/funcionalidade para receber uma 
-// //informação pela URL da requição
-// app.get("/:categoria/:produto", ( request : Request, response : Response ) : Response => {
-//     // const produto = request.params.produto;
-//     // const categoria = request.params.categoria;
-//     const { produto, categoria } = request.params;
-    
-//     return response.status(200).json({ categoria, produto });
-// });
-
 //O comando listen roda a aplicação
 app.listen(3000, function(){
     console.clear();
     console.log("Aplicação rodando na porta 3000");
 });
+
+
+
 
 

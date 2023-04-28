@@ -2,7 +2,7 @@
 GET http://localhost:3000
 
 ### Requisição passando parametros na URL
-GET http://localhost:3000/12/arroz
+GET http://localhost:3000/arroz
 
 ### Requisição passando informação pelo corpo da requisição
 POST http://localhost:3000

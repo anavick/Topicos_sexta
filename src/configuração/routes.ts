@@ -6,8 +6,8 @@ const router = Router();
 
 //configurar todas as rotas/URLs/endpoints da aplicação
 router.post("/", new ProdutoController().cadastrar);
-router.get("/")
-router.get("/:categoria/:produto")
+router.get("/", new ProdutoController().listar);
+router.get("/:nome", new ProdutoController().buscar);
 
 
 export {router};

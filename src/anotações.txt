@@ -1,6 +1,6 @@
 aula de topicos: 14/04
 
--Primeira coisa de todas: CLONAR o projeto do professor no github. (git clone + url do projeto + code)
+-Primeira coisa de todas: CLONAR o projeto  no github. (git clone + url do projeto + code)
 
 -Sempre entrar na pasta do projeto para dar os comandos. (API.JS)
 
@@ -19,3 +19,6 @@ aula de topicos: 14/04
 -! significa que eu nao quero inicializar(nome! : string;)
 
 -npm run TS  para rodar a aplicação (antes era npm run dev mas mudamos o script)
+
+//const = constante
+//let = variavel

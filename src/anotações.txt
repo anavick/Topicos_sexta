@@ -1,0 +1,21 @@
+aula de topicos: 14/04
+
+-Primeira coisa de todas: CLONAR o projeto do professor no github. (git clone + url do projeto + code)
+
+-Sempre entrar na pasta do projeto para dar os comandos. (API.JS)
+
+-qualquer biblioteca que voce trouxer p projeto, precisa do arquivo de TIPAGEM exemplo: => npm i express @types/express -D
+
+-qualquer dependecia instalada, precisa dar IMPORT dentro da pasta para usar.
+
+-npm i tsx -D, usa-se apenas para RODAR o programa typescript  
+
+-WATCH restarta o projeto sozinho após salvar, MAS precisa parar o projeto sozinho e rodar novamente quando adiciona qualquer arquivo novo ou dependencias
+
+-sempre que criar algo(interface, classe) tem que IMPORTAR para poder utilizar 
+
+-nome do atributo e tipo(nome : string;)
+
+-! significa que eu nao quero inicializar(nome! : string;)
+
+-npm run TS  para rodar a aplicação (antes era npm run dev mas mudamos o script)
